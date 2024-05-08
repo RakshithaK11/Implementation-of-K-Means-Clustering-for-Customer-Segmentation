@@ -2,11 +2,9 @@
 
 ## AIM:
 To write a program to implement the K Means Clustering for Customer Segmentation.
-
 ## Equipments Required:
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
-
 ## Algorithm
 1. Import necessary libraries: pandas for data manipulation and matplotlib.pyplot for visualization. 
 2. Load the customer data from a CSV file into a pandas DataFrame
@@ -16,11 +14,9 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 6. Visualize the customer segments by plotting their annual income against spending score, coloring points by cluster membership.
 ## Program:
 ~~~
-
 Program to implement the K Means Clustering for Customer Segmentation.
 Developed by:RAKSHITHA K 
 RegisterNumber:  212223110039
-
 import pandas as pd
 import matplotlib.pyplot as plt
 data=pd.read_csv("/content/Mall_Customers.csv")
@@ -60,11 +56,6 @@ plt.title("Customer Segments")
 ## Output:
 ![image](https://github.com/RakshithaK11/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/139336455/1ca0bb08-e1ce-4429-a1ab-21729db23e6e)
 ![image](https://github.com/RakshithaK11/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/139336455/aea27b4c-3721-417e-b8c3-ab6c2c6f86c2)
-![image](https://github.com/RakshithaK11/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/139336455/01104e55-0938-487a-b192-9400df840977)
-![image](https://github.com/RakshithaK11/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/139336455/0a5fba20-7b1f-42bc-9177-7df2df42fd0d)
 ![image](https://github.com/RakshithaK11/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/139336455/f05b9f8f-a7bb-4f2a-9281-b090664902d7)
-
-
-
 ## Result:
 Thus the program to implement the K Means Clustering for Customer Segmentation is written and verified using python programming.
